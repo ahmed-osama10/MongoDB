@@ -6,6 +6,7 @@ Similarly, save a list, called nobel_coll_names, of the names of the collections
 
 # Save a list of names of the databases managed by client
 db_names = client.list_database_names()
+
 print(db_names)
 
 # Save a list of names of the collections managed by the "nobel" database
